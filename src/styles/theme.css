@@ -1,0 +1,15 @@
+body { margin: 0; font-family: Arial; background: linear-gradient(#0b3d2e, #1b5e20); color: white; }
+ 
+/* APP LAYOUT */ .app-container { display: flex; height: 100vh; }
+ 
+/* SIDEBAR */ .sidebar { width: 220px; background: #0a2f1f; padding: 20px; }
+ 
+.sidebar button { width: 100%; margin: 10px 0; padding: 10px; background: #2e7d32; color: white; border: none; cursor: pointer; }
+ 
+/* MAIN */ .main-content { flex: 1; padding: 20px; }
+ 
+/* CARD */ .card { background: rgba(255,255,255,0.1); padding: 20px; margin-top: 20px; border-radius: 10px; }
+ 
+input { width: 100%; margin: 5px 0; padding: 10px; border: none; }
+ 
+/* BUTTON */ button { background: #2e7d32; color: white; padding: 10px; width: 100%; border: none; margin-top: 10px; }
